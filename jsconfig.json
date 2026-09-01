@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@store/*": ["./src/store/*"],
+      "@config/*": ["./src/shared/configs/*"],
+      "@utils/*": ["./src/shared/utils/*"],
+      "@api/*": ["./src/shared/utils/api/*"]
+    }
+  }
+}

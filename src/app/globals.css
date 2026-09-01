@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-tablet: 640px;
+  --breakpoint-tablet-lg: 768px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1280px;
+  --breakpoint-desktop-lg: 1440px;
+  --breakpoint-desktop-xl: 1600px;
+  --breakpoint-desktop-2xl: 1920px;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fff;
+  color: #000;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+@layer base {
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}
